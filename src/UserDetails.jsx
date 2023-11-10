@@ -84,7 +84,7 @@ const UserDetails = () => {
 
     return (
       <div style={{display:'flex', flexDirection: 'column'}}>
-        <h3>Payment History</h3>
+        <h3>Withdrawl Payment History</h3>
         <table className="history-table">
           <thead>
             <tr>
@@ -116,7 +116,7 @@ const UserDetails = () => {
 
     return (
       <div style={{display:'flex', flexDirection: 'column'}}>
-        <h3>Transaction History</h3>
+        <h3> Stripe Transaction History</h3>
         <table className="history-table">
           <thead>
             <tr>
